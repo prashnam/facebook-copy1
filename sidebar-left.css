@@ -1,0 +1,58 @@
+
+
+.divs-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(25, 25, 25);
+    margin-top: 2px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divs-sidebar:hover {
+    background-color: rgb(59, 59, 59);
+
+}
+.div1-coloum-sidebar {
+    flex: 0.7;
+    margin-right: 0px;
+}
+.div2-coloum-sidebar {
+    flex: 3;
+}
+.text-sidebar-div2 {
+    color: rgb(230, 230, 230);
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 14px;
+}
+.div1-sidebar-image {
+    margin-top: 5px;
+    width: 33px;
+    margin-left: 4px;
+    
+}
+.image-seemore {
+    width: 18px;
+    border: none;
+    margin-top: 8px;
+   margin-left: 10px;
+   background-color: rgb(49, 49, 49);
+   padding-right: 6px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 4.5px;
+   border-radius: 20px;
+}
+.text-sidebar-last {
+    color: rgb(165, 165, 165);
+    font-family: arial;
+    font-size: 13px;
+    width: 220px;
+    margin-left: 15px;
+    
+}

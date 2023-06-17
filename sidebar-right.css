@@ -1,0 +1,327 @@
+.div1-sidebarright {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: left;
+  
+    margin-left: 40px;
+    margin-right: 5px;
+
+}
+
+.div2-sidebarright {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: left;
+    border-top: 0.5px solid rgb(81, 81, 81);
+    margin-left: 40px;
+}
+.div3-sidebarright {
+    background-color: rgb(25, 25, 25);
+    flex: 3;
+    width: 300px;
+    margin-left: 30px;
+}
+.sponsored-text
+{
+    flex: 1;
+    margin-bottom: 10px;
+  color: rgb(228, 228, 228);
+    font-family: arial;
+    font-size: 17px;
+    width: 150px;
+}
+.ads-div {
+    background-color: rgb(25, 25, 25);
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ads-div:hover {
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+}
+.ads-img {
+    flex: 1;
+}
+.ads-info {
+    flex: 1;
+}
+.ads-info-text {
+    height: 10px;
+    font-family: arial;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    margin-left: 5px;
+}
+.ads-info-text-2 {
+    color: rgb(195, 195, 195);
+    font-family: arial;
+    margin-top: 50px;
+    margin-left: 8px;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+.img-ads {
+    width: 120px;
+    height: 100px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.friend-req {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.img-of-cr7 {
+    width: 90px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.name-cr7 {
+    color: rgb(236, 236, 236);
+    font-family: arial;
+    margin-bottom: 9px;
+    cursor: pointer
+}
+.confirm-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 129, 235);
+    color: white;
+    font-weight: arial;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+.confirm-button:hover {
+    background-color: rgb(75, 147, 230);
+}
+.confirm-button:active {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 8px;
+}
+.delete-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-weight: arial;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.delete-button:hover {
+    background-color: rgb(75, 75, 75);
+}
+.delete-button:active {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.verified-img {
+   width: 17px;
+   margin-bottom: -3px;
+}
+.seeall-text {
+    color: rgb(36, 129, 235);
+    font-family: arial;
+    font-size: 16px;
+    width: 50px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.firstline-req {
+    display: flex;
+    justify-content: end;
+}
+.div-contacts-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-contacts-text-div1 {
+    flex: 4;
+    color: rgb(236, 236, 236);
+    font-family: arial;
+    font-family: arial;
+    font-size: 17px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.div-contacts-images {
+  width: 30px;
+  cursor: pointer;
+  background-color:  rgb(25, 25, 25);
+  border-radius: 30px;
+}
+.div-contacts-images:hover {
+    background-color:  rgb(56, 56, 56);
+}
+
+.div-contacts-text-div2 {
+    flex: 1;
+    margin-top: 7px;
+}
+.div-contacts-text-div2 {
+    position: relative;
+}
+.div-contacts-text-div2 .tooltip {
+    color: black;
+    background-color: rgb(203, 203, 203);
+    font-size: 20px;
+    font-family: arial;
+    padding-right: 8px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    font-size: 12px;
+    position: absolute;
+    right: 1px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+    
+   
+  
+}
+.div-contacts-text-div2:hover .tooltip {
+    opacity: 1;
+  
+}
+.tooltip-text {
+    height: 20px;
+    width: 55px;
+    font-size: 13.5px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.div-contacts-text-div2 {
+    position: relative;
+}
+.div-contacts-text-div2 .tooltip2 {
+    color: black;
+    background-color: rgb(203, 203, 203);
+    font-size: 20px;
+    font-family: arial;
+    padding-right: -10px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    font-size: 12px;
+    position: absolute;
+    right: 1px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+    
+   
+  
+}
+.div-contacts-text-div2:hover .tooltip2 {
+    opacity: 1;
+  
+}
+.tooltip2-text {
+    height: 20px;
+    width: 55px;
+    font-size: 13.5px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.div-contacts-text-div2 {
+    position: relative;
+}
+.div-contacts-text-div2 .tooltip3 {
+    color: black;
+    background-color: rgb(203, 203, 203);
+    font-size: 20px;
+    font-family: arial;
+    padding-right: 1px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    font-size: 12px;
+    position: absolute;
+    right: 1px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+    top: 35px;
+    
+   
+  
+}
+.div-contacts-text-div2:hover .tooltip3 {
+    opacity: 1;
+  
+}
+.tooltip3-text {
+    height: 20px;
+    width: 55px;
+    font-size: 13.5px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.div1-sidebarleft-image {
+    width: 48px;
+    margin-top: 5px;
+}
+.see-all-contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image-seeall {
+    width: 20px;
+   vertical-align: bottom;
+}
+.seeall-button
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: none;
+    width: 250px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.seeall-button:hover {
+    background-color: rgb(74, 74, 74);
+}

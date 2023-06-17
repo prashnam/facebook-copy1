@@ -1,0 +1,106 @@
+.sidebarleft-container {
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.sidebarleft-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  background-color: transparent; /* Color of the scrollbar track */
+
+}
+
+.sidebarleft-container::-webkit-scrollbar-thumb {
+  background-color: rgba(152, 152, 152, 0); /* Color of the scrollbar thumb */
+  border-radius: 5px;
+}
+
+.sidebarleft-container:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(193, 193, 193, 0.5); /* Color of the scrollbar thumb on hover */
+}
+
+.sidebarleft-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the scrollbar track */
+}
+
+.sidebarleft-container::-webkit-scrollbar-track:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Color of the scrollbar track on hover */
+}
+.sidebarright-container {
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.sidebarright-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  background-color: transparent; /* Color of the scrollbar track */
+
+}
+
+.sidebarright-container::-webkit-scrollbar-thumb {
+  background-color: rgba(152, 152, 152, 0); /* Color of the scrollbar thumb */
+  border-radius: 5px;
+}
+
+.sidebarright-container:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(193, 193, 193, 0.5); /* Color of the scrollbar thumb on hover */
+}
+
+.sidebarright-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the scrollbar track */
+}
+
+.sidebarright-container::-webkit-scrollbar-track:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Color of the scrollbar track on hover */
+}
+.middle-container  {
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.middle-container ::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  background-color: transparent; /* Color of the scrollbar track */
+
+}
+
+.middle-container ::-webkit-scrollbar-thumb {
+  background-color: rgba(152, 152, 152, 0); /* Color of the scrollbar thumb */
+  border-radius: 5px;
+}
+
+.middle-container :hover::-webkit-scrollbar-thumb {
+  background-color: rgba(193, 193, 193, 0.5); /* Color of the scrollbar thumb on hover */
+}
+
+.middle-container ::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the scrollbar track */
+}
+
+.middle-container :-webkit-scrollbar-track:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Color of the scrollbar track on hover */
+}
+@media (max-width: 850px) {
+  .sidebarleft-container {
+    display: none;
+  }
+  .sidebarright-container {
+    display: none;
+  }
+
+}
+@media (max-width: 800px) {
+  .middle {
+    display: none;
+  }
+}
+input[type="search"]:focus {
+  outline: none;
+  border-color: transparent;
+}
+
+
+
+  

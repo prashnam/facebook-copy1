@@ -1,0 +1,418 @@
+.header {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+     margin-top: 0;   z-index: 1;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+.middle {
+    
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    min-width: 100px;
+   
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.logo {
+    width: 75px;
+    margin-right: -10px;
+   
+}
+.search {
+    width: 27px;
+    
+    display: inline-block;
+    padding: 5px;
+    border-radius: 40px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    background-color: rgb(64, 64, 64);
+    padding-right: 9px;
+
+}
+.middle div img {
+    width: 30px;
+    
+}
+.middle div {
+    width: 100px;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    width: 27px;
+    display: inline-block;
+    padding: 5px;
+    border: 0px solid black;
+    border-radius: 30px;
+    padding-left: 7px;
+    padding-top: 8px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    background-color: rgb(64, 64, 64);
+    margin-right: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    
+}
+.menu:hover {
+    background-color: rgb(94, 94, 94);
+}
+.divmenu {
+    position: relative;
+    cursor: pointer;
+}
+.divmenu .tooltip {
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: 2px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s ;
+}
+
+
+.divmenu:hover .tooltip {
+    opacity: 1;
+   
+  
+}
+.messanger {
+    width: 24px;
+    display: inline-block;
+    padding: 5px;
+    border: 0px solid black;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    background-color: rgb(64, 64, 64);
+    margin-right: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.messanger:hover {
+    background-color: rgb(94, 94, 94);
+}
+.divmessanger {
+    position: relative;
+}
+.divmessanger .tooltip {
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: -14px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+.divmessanger:hover .tooltip {
+    opacity: 1;
+  
+}
+.noti {
+    width: 26px;
+    display: inline-block;
+    padding: 5px;
+    border: 0px solid black;
+    border-radius: 30px;
+    padding-left: 6px;
+    padding-top: 8px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    background-color: rgb(64, 64, 64);
+    margin-right: 9px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.noti:hover {
+    background-color: rgb(94, 94, 94);
+}
+.divnoti {
+    position: relative;
+}
+.divnoti .tooltip {
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: -14px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+.divnoti:hover .tooltip {
+    opacity: 1;
+  
+}
+.pfp {
+    width: 43px;
+    margin-right: 9px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.pfp:hover {
+    background-color: rgb(94, 94, 94);
+}
+.divprofile {
+    position: relative;
+}
+.divprofile .tooltip {
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+   left: -10px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+.divprofile:hover .tooltip {
+    opacity: 1;
+  
+}
+.divhome {
+    position: relative;
+    height: 60px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.divhome .tooltip {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: -10;
+   top: 60px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+
+.divhome:hover .tooltip {
+    opacity: 1;
+  
+}
+
+.divwatch {
+    position: relative;
+    height: 60px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.divwatch .tooltip {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 14px;
+    padding-right: 26px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: -10;
+   top: 60px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+.divwatch:hover .tooltip {
+    opacity: 1;
+  
+}
+.divwatch:hover img{
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.divgames {
+    position: relative;
+    height: 60px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.divgames .tooltip {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 14px;
+    padding-right: 33px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: -10;
+   top: 60px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+.divgames:hover .tooltip {
+    opacity: 1;
+  
+}
+.divgames:hover img{
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.divmore {
+    position: relative;
+    height: 60px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.divmore .tooltip {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-family: arial;
+    padding-left: 14px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    width: 20px;
+    font-size: 12px;
+    position: absolute;
+   right: -10;
+   top: 60px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.2s;
+   
+  
+}
+.divmore:hover .tooltip {
+    opacity: 1;
+}
+.divmore:hover img{
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.divsearch {
+    cursor: pointer;
+}
